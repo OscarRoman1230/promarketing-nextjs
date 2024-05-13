@@ -47,7 +47,7 @@ export default function FormCreateRequest({providers}: props) {
                         <div className="items-center grid grid-cols-7 gap-1 my-2">
                             {
                                 providers.map((provider: any) => (
-                                    <div key={provider.id} className="w-full sm:col-span-7 items-center me-4">
+                                    <div key={provider.id} className="w-full items-center me-4">
                                         <input checked={isAllChecked} id={provider.name} type="checkbox"
                                                value={provider.id}
                                                className="w-4 h-4 text-yellow-400 bg-gray-100 border-gray-300 hover:border-amber-400 rounded focus:ring-yellow-500 focus:ring-2 checked:accent-amber-400"/>
